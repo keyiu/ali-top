@@ -1,7 +1,7 @@
 {
-  "name": "@ali/topSdk",
+  "name": "ali-top",
   "author":"xuteng.xt@alibaba-inc.com",
-  "version": "1.6.0",
+  "version": "0.0.1",
   "description": "Taobao Open API & Message Client.",
   "keywords": [
     "top",
