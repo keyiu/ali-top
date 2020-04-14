@@ -5,9 +5,10 @@ declare namespace aliTop {
   interface Message {
     ToUserName: string;
     FromUserName: string;
-    MsgType: 'image' | 'voice' | 'shortvideo' | 'location' | 'link' | 'event';
+    MsgType: 'text' | 'image' | 'voice' | 'shortvideo' | 'location' | 'link' | 'event';
     CreateTime: number;
-    Event: 'subscribe' | 'subscribe'
+    Event: 'subscribe' | 'subscribe',
+    Content: string;
   }
   interface TextMessage {
     content: string;
@@ -32,7 +33,7 @@ declare namespace aliTop {
     picurl: string;
     url: string
   }
-  const SendMessage: TextMessage | MusicMessage | CustomerService | ImageTextMessage
+  type SendMessage = TextMessage | MusicMessage | CustomerService | ImageTextMessage
 }
 export = aliTop
  
