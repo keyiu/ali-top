@@ -16,7 +16,7 @@
     "ws": "^0.4.32",
     "iconv-lite": "^0.4.7",
     "urlencode": "^1.1.0",
-    "request": "~2.72.0"
+    "request": "~2.88.2"
   },
   "engines": {
     "node": ">=0.8"
